@@ -1,0 +1,15 @@
+{
+  "name": "cypress_practice",
+  "version": "1.0.0",
+  "description": "This is cypress practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Midhusha Shivakumar",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "cypress-mochawesome-reporter": "^3.5.1"
+  }
+}
