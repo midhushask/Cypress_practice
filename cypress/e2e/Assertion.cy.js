@@ -20,13 +20,13 @@ describe('Assertion test',()=>{
       cy.get("[type='password']").type("admin123")
       cy.get("button[type='submit']").click()
 
-      let expectedname="Paul Collings";
+      let expectedname="Paul Collings ";
       cy.get("[class='oxd-userdropdown-name']").then((x)=> {
 
            let actualname=x.text()
            //BDD style(expect)
            expect(actualname).to.equal(expectedname) 
-           //TDD style(assert)
+           //TDD style(assertion)
            assert(actualname,expectedname)
     })
         
